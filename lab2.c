@@ -9,3 +9,9 @@ void qwrt(double a, double b, double c)
 	if (d < 0)
 	{
 		printf("\nNo roots\n");
+	}
+		else if (d == 0)
+	{
+		x1 = -b / (2 * a);
+		printf("\nRoot: %lf\n", x1);
+	}
